@@ -1,8 +1,10 @@
 """
-This script converts RGB images to infrared (IR) format using a weighted combination of Red and Green channels.
+This script applies multiple levels of Gaussian blur and sharpening to images.
+It also ensures that corresponding YOLO annotation files are copied properly.
 Usage:
-    python utils/rgb_to_ir.py --input_folder path/to/images --output_folder path/to/save
+    python utils/blur_sharpen.py --input_folder path/to/images --output_folder path/to/save
 """
+
 import os
 import torch
 from PIL import Image, ImageFilter, ImageEnhance
