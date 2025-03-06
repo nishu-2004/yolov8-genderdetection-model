@@ -2,6 +2,8 @@
 
 This project implements a gender detection model using YOLOv8, a state-of-the-art object detection framework. The model detects human faces in images or video streams and predicts their gender (male/female).
 
+Note: This model is optimized for detecting a single face per image/frame and may not perform as well when multiple faces are present.
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
