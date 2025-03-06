@@ -1,3 +1,10 @@
+"""
+Splits the dataset into train, validation, and test sets while preserving YOLO annotation files.
+Usage:
+    python utils/split_dataset.py --input_folder path/to/dataset --output_path path/to/save
+"""
+
+
 import os
 import shutil
 import random
