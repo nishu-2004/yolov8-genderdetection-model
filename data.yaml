@@ -1,0 +1,7 @@
+path: E:\gender_detection\dataset\yoloo_op\images
+train: E:\gender_detection\dataset\yoloo_op\images\train
+val: E:\gender_detection\dataset\yoloo_op\images\val
+test: E:\gender_detection\dataset\yoloo_op\images\test
+
+nc: 2  # Number of classes
+names: ['female', 'male']
