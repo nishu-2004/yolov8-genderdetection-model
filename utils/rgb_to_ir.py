@@ -1,3 +1,9 @@
+"""
+This script converts RGB images to infrared (IR) format using a weighted combination of Red and Green channels.
+Usage:
+    python utils/rgb_to_ir.py --input_folder path/to/images --output_folder path/to/save
+"""
+
 import cv2
 import numpy as np
 import os
